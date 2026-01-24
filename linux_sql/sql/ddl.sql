@@ -1,27 +1,28 @@
-CREATE TABLE IF NOT EXISTS public.host_info 
+--Creating two tables to store hardware specifications
+CREATE TABLE IF NOT EXISTS public.host_info
 (
-    id               SERIAL NOT NULL,
-    hostname         VARCHAR NOT NULL,
-    cpu_number       SMALLINT NOT NULL,
-    cpu_architecture VARCHAR NOT NULL,
-    cpu_model        VARCHAR NOT NULL,
-    cpu_mhz          DOUBLE PRECISION NOT NULL,
-    l2_cache         INTEGER NOT NULL,
-    total_mem        INTEGER NULL,
-    "timestamp"      TIMESTAMP NULL,
-    CONSTRAINT host_info_pk PRIMARY KEY (id),
-    CONSTRAINT host_info_un UNIQUE (hostname)
+	--id will be unique and will auto-increment, double precision same as float8
+  id               SERIAL PRIMARY KEY,
+  hostname         VARCHAR NOT NULL UNIQUE,
+  cpu_number       SMALLINT NOT NULL,
+  cpu_architecture VARCHAR NOT NULL,
+  cpu_model        VARCHAR NOT NULL,
+  cpu_mhz          DOUBLE PRECISION NOT NULL,
+  l2_cache         INTEGER NOT NULL,
+  total_mem        INTEGER,
+  "timestamp"      TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS public.host_usage
 (
-    host_id          INTEGER NOT NULL,
-    memory_free      INTEGER NOT NULL,
-    cpu_idle         REAL NOT NULL,
-    cpu_kernel       REAL NOT NULL,
-    disk_io          INTEGER NOT NULL,
-    disk_available   INTEGER NOT NULL,
-    "timestamp"      TIMESTAMP NOT NULL,
-    CONSTRAINT host_usage_pk PRIMARY KEY (id),
-    CONSTRAINT host_usage_fk FOREIGN KEY (host_id) REFERENCES public.host_info(id)
+	-- ensures host-id will match a valid host from host-info
+  "timestamp"    TIMESTAMP NOT NULL,
+  host_id        SERIAL NOT NULL,
+  memory_free    INTEGER NOT NULL,
+  cpu_idle       SMALLINT NOT NULL,
+  cpu_kernel     SMALLINT NOT NULL,
+  disk_io        INTEGER NOT NULL,
+  disk_available INTEGER NOT NULL,
+  CONSTRAINT host_usage_host_info_fk
+    FOREIGN KEY (host_id) REFERENCES public.host_info(id)
 );
