@@ -1,3 +1,5 @@
+--Run using:
+-- psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 --Creating two tables to store hardware specifications
 CREATE TABLE IF NOT EXISTS public.host_info
 (
