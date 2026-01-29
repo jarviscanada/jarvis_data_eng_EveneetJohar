@@ -9,7 +9,7 @@ This project focuses on building a strong foundation in SQL through hands-on exe
 Table Setup
 
 
-```bash
+```sql
  CREATE SCHEMA IF NOT EXISTS cd;
 
 CREATE TABLE IF NOT EXISTS cd.members (
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS cd.bookings (
 ```
 Question 1: Insert some data into facilities table
 
-```bash
+```sql
 INSERT INTO cd.facilities 
 VALUES 
   (9, 'Spa', 20, 30, 100000, 800);
@@ -52,7 +52,7 @@ VALUES
 
 Question 2: Insert calculated data into a table
 
-```bash
+```sql
 INSERT INTO cd.facilities 
 VALUES 
   (
@@ -71,7 +71,7 @@ VALUES
 ```
 
 Question 3:Update some existing data
-```bash
+```sql
 UPDATE 
   cd.facilities 
 SET 
@@ -82,7 +82,7 @@ WHERE
 ```
 
 Question 4: Update a row based on the contents of another row
-```bash
+```sql
 UPDATE 
   cd.facilities 
 SET 
@@ -108,7 +108,7 @@ WHERE
 ```
 Question 5 : Delete all bookings
 
-```bash
+```sql
 DELETE FROM 
   cd.bookings;
 
@@ -116,7 +116,7 @@ DELETE FROM
 ```
 Question  6 :Delete a member from the cd.members table
 
-```bash
+```sql
 DELETE FROM 
   cd.members 
 WHERE 
@@ -124,7 +124,7 @@ WHERE
 
 ```
 Question 7 :Control which rows are retrieved - part 2
-```bash
+```sql
 SELECT 
   facid, 
   name, 
@@ -140,7 +140,7 @@ WHERE
 ```
 Question  8 :Basic string searches
 
-```bash
+```sql
 SELECT 
   * 
 FROM 
@@ -150,7 +150,7 @@ WHERE
 
 ```
 Question 9 :Matching against multiple possible values
-```bash
+```sql
 SELECT 
   * 
 FROM 
@@ -161,7 +161,7 @@ WHERE
 ```
 
 Question 10: Working with dates
-```bash
+```sql
 SELECT 
   memid, 
   surname, 
@@ -175,7 +175,7 @@ WHERE
 ```
 
 Question 11: Combining results from multiple queries
-```bash
+```sql
 SELECT 
   surname 
 FROM 
@@ -189,7 +189,7 @@ FROM
 ```
 
 Question 12: Retrieve the start times of members' bookings
-```bash
+```sql
 SELECT 
   bks.starttime 
 FROM 
@@ -202,7 +202,7 @@ WHERE
 ```
 
 Question 13: Work out the start times of bookings for tennis courts
-```bash
+```sql
 SELECT 
   bks.starttime AS start, 
   fas.name 
@@ -219,7 +219,7 @@ ORDER BY
 ```
 
 Question 14 : Produce a list of all members, along with their recommender
-```bash
+```sql
 SELECT 
   mems.firstname AS memfname, 
   mems.surname AS memsname, 
@@ -235,7 +235,7 @@ ORDER BY
 ```
 
 Question 15 : Produce a list of all members who have recommended another member
-```bash
+```sql
 SELECT 
   DISTINCT recs.firstname, 
   recs.surname 
@@ -249,7 +249,7 @@ ORDER BY
 ```
 
 Question 16 : Produce a list of all members, along with their recommender, using no joins
-```bash
+```sql
 SELECT 
   DISTINCT mems.firstname || ' ' || mems.surname AS member, 
   (
@@ -268,7 +268,7 @@ ORDER BY
 ```
 
 Question 17 : Count the number of recommendations each member makes.
-```bash
+```sql
 SELECT 
   recommendedby, 
   count(*) 
@@ -284,7 +284,7 @@ ORDER BY
 ```
 
 Question 18 : List the total slots booked per facility
-```bash
+```sql
 SELECT 
   facid, 
   SUM(slots) AS "Total Slots" 
@@ -298,7 +298,7 @@ ORDER by
 ```
 
 Question 19 : List the total slots booked per facility in a given month
-```bash
+```sql
 SELECT 
   facid, 
   SUM(slots) AS "Total Slots" 
@@ -315,7 +315,7 @@ ORDER BY
 ```
 
 Question 20 : List the total slots booked per facility per month
-```bash
+```sql
 SELECT 
   facid, 
   extract(
@@ -343,7 +343,7 @@ ORDER BY
 
 Question 21 : Find the count of members who have made at least one booking
 
-```bash
+```sql
 SELECT 
   COUNT(DISTINCT memid) 
 FROM 
@@ -352,7 +352,7 @@ FROM
 ```
 
 Question 22 : List each member's first booking after September 1st 2012
-```bash
+```sql
 SELECT 
   surname, 
   firstname, 
@@ -374,7 +374,7 @@ ORDER BY
 
 Question 23 : Produce a list of member names, with each row containing the total member count
 
-```bash
+```sql
 SELECT 
   COUNT(*) over(), 
   firstname, 
@@ -388,7 +388,7 @@ ORDER BY
 
 Question 24 : Produce a numbered list of members
 
-```bash
+```sql
 SELECT 
   ROW_NUMBER() OVER(
     ORDER BY 
@@ -405,7 +405,7 @@ ORDER BY
 
 Question 25 : Output the facility id that has the highest number of slots booked, again
 
-```bash
+```sql
 SELECT 
   facid, 
   total 
@@ -430,7 +430,7 @@ WHERE
 
 Question 26 : Format the names of members
 
-```bash
+```sql
 SELECT 
   surname || ', ' || firstname AS name 
 FROM 
@@ -440,7 +440,7 @@ FROM
 
 Question 27 : Find telephone numbers with parentheses
 
-```bash
+```sql
 SELECT 
   memid, 
   telephone 
@@ -453,7 +453,7 @@ WHERE
 
 Question 28 : Count the number of members whose surname starts with each letter of the alphabet
 
-```bash
+```sql
 SELECT 
   SUBSTR(mems.surname, 1, 1) AS letter, 
   COUNT(*) AS count 
