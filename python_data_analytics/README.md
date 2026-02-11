@@ -18,6 +18,7 @@ The data was imported into a local PostgreSQL database serving as an analytical 
 
 ## Project Architecture Diagram
 
+![LSG](assets/LSG.jpg)
 
 
 
@@ -39,3 +40,4 @@ Additionally, recognizing inactive or low-frequency customers allows LGS to impl
 - Enhance contextual analysis: Incorporate information on the timing of sales and promotions in each country to better understand and explain regional variations in sales performance.
 
 - Implement interactive dashboards: Build automated, interactive dashboards using a visualization tool, enabling the LGS marketing team to explore trends and customer segments directly. This would allow data to be refreshed and visualized automatically, reducing reliance on Jupyter notebooks.
+
