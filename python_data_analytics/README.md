@@ -25,6 +25,8 @@ The data was imported into a local PostgreSQL database serving as an analytical 
 
 # Data Analytics and Wrangling
 
+[Notebook for Data Wrangling and Analytics](python_data_wrangling/retail_data_analytics_wrangling.ipynb)
+
 The data analytics and wrangling for this project were conducted using Python within a Jupyter Notebook. The notebook includes the complete workflow for data cleaning, transformation, exploratory analysis, and customer segmentation applied in this PoC.
 
 Insights derived from this analysis provide LGS with actionable opportunities to drive revenue growth. For example, customer segmentation outcomes, such as RFM analysis, can help identify high-value and loyal customers, enabling targeted promotions, loyalty programs, and early-access offers.
@@ -40,4 +42,5 @@ Additionally, recognizing inactive or low-frequency customers allows LGS to impl
 - Enhance contextual analysis: Incorporate information on the timing of sales and promotions in each country to better understand and explain regional variations in sales performance.
 
 - Implement interactive dashboards: Build automated, interactive dashboards using a visualization tool, enabling the LGS marketing team to explore trends and customer segments directly. This would allow data to be refreshed and visualized automatically, reducing reliance on Jupyter notebooks.
+
 
