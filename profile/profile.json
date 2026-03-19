@@ -15,7 +15,7 @@
       "school_name": "Mumbai University"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar",
   "highlighted_projects": [
     {
       "description": "Managed the end-to-end creation of a security tracking system for OneWheel devices, focusing on turning the goal of theft prevention into a working technical product. The process began by identifying exactly what a user needs in a security app?such as precise location updates and battery-saving features?and documenting these as core project requirements. By mapping out how data should flow from the GPS hardware to the cloud and finally to the user's phone, a reliable and low-latency tracking experience was ensured. Beyond the coding and hardware assembly, the project involved constant testing and documentation to make sure the final mobile app was easy to use and effectively solved the security concerns of the device owners.",
