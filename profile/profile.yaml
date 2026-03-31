@@ -52,11 +52,15 @@ jarvis_projects:
   - name: "BSA Fundamentals"
     git_url: "/bsa_fundamentals"
     description: " Structured and executed a comprehensive BSA project centered on deconstructing complex product requests into clear, actionable business objectives. By performing detailed requirements analysis, business needs were successfully separated from technical constraints, allowing high-level goals to be translated into specific functional and non-functional specifications. The project involved simulating stakeholder engagement by documenting critical assumptions and clarifications to ensure the completeness of the system's scope. This process culminated in the production of professional BRD and SRD-style documentation, demonstrating a strong ability to communicate business logic, data requirements, and intended system behavior to both technical and non-technical audiences."
+  - name: "Power BI Fundamentals"
+    git_url: "/power_bi"
+    description: "Developed three interactive Power BI dashboards to deliver actionable insights across sales, survey, and financial data. Built a Beverages Sales Dashboard analyzing Coca-Cola?s sales and operating profit across U.S. states using AI-driven Q and A, key influencer visuals, and dynamic maps. Transformed and analyzed over 600 survey responses to create a Data Professionals Report highlighting trends in salary, job satisfaction, and in-demand skills. Designed a Stocks Dashboard by integrating Alpha Vantage API data to visualize historical prices, trading volume, key financial metrics, and earnings estimates. Performed data cleaning, transformation, and modeling, validated outputs, and translated complex data into clear, data-driven business insights."
+
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "One Wheel Security & Tracking System "
+  - name: "One Wheel Security & Tracking System"
     #URL is optional
     #git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
