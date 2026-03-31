@@ -5,7 +5,7 @@ This project consists of an integrated suite of Power BI dashboards designed to 
 #  Beverages Sales Performance Dashboard
 ## Project Overview
 
-This Power BI dashboard provides a comprehensive 360-degree view of Coca-Cola?s sales operations across the United States for the 2022 fiscal year. It is designed to empower stakeholders with actionable insights into regional performance, product profitability, and supply chain efficiency.
+This Power BI dashboard provides a comprehensive 360-degree view of Coca-Cola's sales operations across the United States for the 2022 fiscal year. It is designed to empower stakeholders with actionable insights into regional performance, product profitability, and supply chain efficiency.
 
 
 ## High-Level Requirements
@@ -20,15 +20,15 @@ The dashboard was developed to satisfy the following core stakeholder needs:
 The analysis is built upon the Coca-Cola_Sales.xlsx dataset, containing the following key attributes:
 - Dimensions: Retailer (Walmart, Target, CVS, Costco), Region, State, City, Beverage Brand, and Delivery Company.
 - Metrics: Units Sold, Price per Unit, Total Sales, Operating - Profit, Operating Margin, and Days to Deliver.
-Timeframe: January 2022 ? December 2022.
+Timeframe: January 2022- December 2022.
 
 ## Constraints & Limitations
-- Historical Nature: The dataset is limited to 2022. It does not reflect real-time 2023?2026 market conditions or current inflationary impacts on pricing.
+- Historical Nature: The dataset is limited to 2022. It does not reflect real-time 2023-2026 market conditions or current inflationary impacts on pricing.
 - External Factors: The data does not include external variables such as local weather patterns, competitor activity, or specific marketing spend, which may influence sales spikes.
 - Static Logic: Operating margins are calculated based on provided transaction data and do not account for retroactive rebates or off-invoice trade spends.
 
 ## Future Enhancements
-- Predictive Modeling: Integration of Power BI?s AI features to forecast 2023 sales based on 2022 seasonality.
+- Predictive Modeling: Integration of Power BI's AI features to forecast 2023 sales based on 2022 seasonality.
 - What-If Scenarios: Adding parameters to simulate the impact of rising logistics costs (Delivery Days/Company) on the final Operating Profit.
 - Customer Sentiment: Incorporating social media or survey data to correlate brand sales with consumer sentiment.
 
@@ -54,7 +54,7 @@ The analysis is built upon the Data Professional Survey.xlsx dataset, containing
 ## Constraints & Limitations
 - Self-Reporting: As the data is survey-based, it is subject to respondent bias and may not be verified against actual payroll or tax documents.
 - Sample Size: 630 entries provide a strong trend but may not capture the nuances of smaller regional markets or niche sub-industries.
-- Static Snapshot: The data represents a moment in time (2022) and does not reflect the massive industry shifts caused by the Generative AI boom of 2023?2024.
+- Static Snapshot: The data represents a moment in time (2022) and does not reflect the massive industry shifts caused by the Generative AI boom of 2023-2024.
 
 ## Future Enhancements
 - Career Pathing Logic: Adding a "Career Switcher" analysis to see how many professionals transitioned from non-technical roles.
