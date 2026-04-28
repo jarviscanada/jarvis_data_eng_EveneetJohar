@@ -49,6 +49,16 @@
       "name": "Banking Fraud Analytics \u0026 Strategic Mitigation Project"
     },
     {
+      "description": "Developed a comprehensive HR Analytics dashboard in Tableau to visualize workforce dynamics and identify key drivers behind a 16.12% attrition rate for an organization of 1,470 employees. The project involved transforming raw HR data into interactive visualizations, including binned histograms for age distribution, donut charts for demographic segmentation, and a heat map to correlate job satisfaction levels across various organizational roles. By implementing advanced Tableau features such as calculated fields for KPI tracking and dashboard actions for dynamic filtering, the analysis pinpointed that the R\u0026D department and employees within the 25?34 age bracket represented the highest turnover risks. These insights enable stakeholders to move beyond surface-level metrics to understand the intersection of educational background and role satisfaction, providing a data-driven foundation for targeted retention strategies.",
+      "git_url": "/tableau",
+      "name": "Tableau"
+    },
+    {
+      "description": "Designed and deployed four comprehensive ETL pipelines within the Databricks platform using PySpark to ingest and process data from diverse sources, including REST APIs, PostgreSQL databases (via JDBC), and internal Hive tables. Developed data manipulation logic such as three-way joins and time-series aggregations to derive business-critical metrics, while optimizing storage and query performance through the use of Parquet and Delta Lake formats. Engineered data partitioning strategies to enable efficient partition pruning, significantly reducing I/O overhead and execution time for downstream analytics. Managed real-world data engineering challenges, including handling API rate limits and ensuring schema consistency across heterogeneous data environments to deliver production-ready data assets.",
+      "git_url": "/spark/notebooks",
+      "name": "PySpark"
+    },
+    {
       "description": "Developed three interactive Power BI dashboards to deliver actionable insights across sales, survey, and financial data. Built a Beverages Sales Dashboard analyzing Coca-Cola?s sales and operating profit across U.S. states using AI-driven Q and A, key influencer visuals, and dynamic maps. Transformed and analyzed over 600 survey responses to create a Data Professionals Report highlighting trends in salary, job satisfaction, and in-demand skills. Designed a Stocks Dashboard by integrating Alpha Vantage API data to visualize historical prices, trading volume, key financial metrics, and earnings estimates. Performed data cleaning, transformation, and modeling, validated outputs, and translated complex data into clear, data-driven business insights.",
       "git_url": "/power_bi",
       "name": "Power BI Fundamentals"
