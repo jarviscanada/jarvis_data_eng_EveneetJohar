@@ -24,7 +24,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": " Designed and implemented a Linux-based resource monitoring agent using Bash scripting and PostgreSQL to automate the collection of critical hardware and performance metrics. Beyond the technical deployment, a comprehensive systems analysis was conducted to align the data architecture with business objectives, identifying key usage patterns essential for capacity planning and server scaling. By validating SQL schemas and cron schedules against reporting requirements, the project ensured high data integrity and translated complex system behaviors into actionable insights. This solution effectively bridged the gap between infrastructure management and business value through clear technical documentation and strategic resource optimization.",
+      "description": " Designed a Bash and PostgreSQL resource monitoring agent to automate hardware metric collection. Conducted systems analysis to align data architecture with capacity planning, validating SQL schemas and cron schedules to ensure high data integrity. Translated complex infrastructure metrics into actionable insights, bridging technical management with strategic resource optimization.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Monitoring Agent"
     },
@@ -69,7 +69,10 @@
     {
       "bullets": [
         "CCNA Cisco Certified Network Associate",
-        "Microsoft Certified: Azure Fundamentals (AZ-900)"
+        "Microsoft Certified: Azure Fundamentals (AZ-900)",
+        "Databricks Data Analyst Associate Certification",
+        "Databricks Data Engineer Associate Certification",
+        "PL-300 Certification Prep: Microsoft Power BI Data Analyst"
       ],
       "title": "Certificates"
     },
@@ -120,5 +123,5 @@
       "Process Documentation"
     ]
   },
-  "summary": "Business Systems Analyst with a strong foundation in data engineering and analytics and a Postgraduate Diploma in Wireless Information Networking. Skilled in SQL, Python, Git/GitHub, Power BI, and ETL processes. Developing expertise in translating complex data into actionable insights and bridging business requirements with technical solutions. Building skills in requirements analysis, system documentation, Agile delivery support, and validating outputs against business objectives. Combines technical expertise, analytical thinking, and clear communication to deliver efficient, stakeholder-focused solutions."
+  "summary": "Business Systems Analyst with a strong foundation in data engineering, advanced visualization, and business systems analysis. Skilled in SQL, Python, Power BI (Power Query, DAX, and custom modeling), and ETL processes to transform complex datasets into actionable enterprise insights. Proven expertise in bridging business requirements with technical execution?translating stakeholder needs into high-impact dashboards, robust data models, and automated reporting solutions. Combines technical depth, analytical thinking, and clear communication to deliver stakeholder-focused BI strategies that drive business growth."
 }
