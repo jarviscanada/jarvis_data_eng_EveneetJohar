@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_EveneetJoh
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Business Systems Analyst with a strong foundation in data engineering and analytics and a Postgraduate Diploma in Wireless Information Networking. Skilled in SQL, Python, Git/GitHub, Power BI, and ETL processes. Developing expertise in translating complex data into actionable insights and bridging business requirements with technical solutions. Building skills in requirements analysis, system documentation, Agile delivery support, and validating outputs against business objectives. Combines technical expertise, analytical thinking, and clear communication to deliver efficient, stakeholder-focused solutions.
+summary: Business Systems Analyst with a strong foundation in data engineering, advanced visualization, and business systems analysis. Skilled in SQL, Python, Power BI (Power Query, DAX, and custom modeling), and ETL processes to transform complex datasets into actionable enterprise insights. Proven expertise in bridging business requirements with technical execution?translating stakeholder needs into high-impact dashboards, robust data models, and automated reporting solutions. Combines technical depth, analytical thinking, and clear communication to deliver stakeholder-focused BI strategies that drive business growth.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -41,7 +41,7 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: " Designed and implemented a Linux-based resource monitoring agent using Bash scripting and PostgreSQL to automate the collection of critical hardware and performance metrics. Beyond the technical deployment, a comprehensive systems analysis was conducted to align the data architecture with business objectives, identifying key usage patterns essential for capacity planning and server scaling. By validating SQL schemas and cron schedules against reporting requirements, the project ensured high data integrity and translated complex system behaviors into actionable insights. This solution effectively bridged the gap between infrastructure management and business value through clear technical documentation and strategic resource optimization."
+    description: " Designed a Bash and PostgreSQL resource monitoring agent to automate hardware metric collection. Conducted systems analysis to align data architecture with capacity planning, validating SQL schemas and cron schedules to ensure high data integrity. Translated complex infrastructure metrics into actionable insights, bridging technical management with strategic resource optimization."
 
   - name: "SQL Learning & RDBMS Practice"
     git_url: "/sql"
@@ -69,7 +69,9 @@ jarvis_projects:
   - name: "Power BI Fundamentals"
     git_url: "/power_bi"
     description: "Developed three interactive Power BI dashboards to deliver actionable insights across sales, survey, and financial data. Built a Beverages Sales Dashboard analyzing Coca-Cola?s sales and operating profit across U.S. states using AI-driven Q and A, key influencer visuals, and dynamic maps. Transformed and analyzed over 600 survey responses to create a Data Professionals Report highlighting trends in salary, job satisfaction, and in-demand skills. Designed a Stocks Dashboard by integrating Alpha Vantage API data to visualize historical prices, trading volume, key financial metrics, and earnings estimates. Performed data cleaning, transformation, and modeling, validated outputs, and translated complex data into clear, data-driven business insights."
-
+  - name: "Blue Bank Global Asset Management Dashboard"
+    git_url: "/power_bi"
+    description: "Led stakeholder interviews and requirements-gathering sessions to translate business needs into a comprehensive Business Requirements Document (BRD) for an automated monthly reporting dashboard at Blue Bank Global Asset Management. Collaborated cross-functionally with development leads, data analysts, and Scrum masters to align technical architecture, data integration pipelines, and agile delivery frameworks. Delivered executive and client-facing presentations to Blue Bank stakeholders, securing project sign-off and ensuring compliance with ITGC governance and reporting standards."
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -122,6 +124,10 @@ others:
     bullets:
       - "CCNA Cisco Certified Network Associate"
       - "Microsoft Certified: Azure Fundamentals (AZ-900)"
+      - "Databricks Data Analyst Associate Certification"
+      - "Databricks Data Engineer Associate Certification"
+      - "PL-300 Certification Prep: Microsoft Power BI Data Analyst"
+
         #- title: "Awards"
         # bullets:
         #- "Winner"

@@ -1,6 +1,6 @@
 # Eveneet Johar . Jarvis Consulting
 
-Business Systems Analyst with a strong foundation in data engineering and analytics and a Postgraduate Diploma in Wireless Information Networking. Skilled in SQL, Python, Git/GitHub, Power BI, and ETL processes. Developing expertise in translating complex data into actionable insights and bridging business requirements with technical solutions. Building skills in requirements analysis, system documentation, Agile delivery support, and validating outputs against business objectives. Combines technical expertise, analytical thinking, and clear communication to deliver efficient, stakeholder-focused solutions.
+Business Systems Analyst with a strong foundation in data engineering, advanced visualization, and business systems analysis. Skilled in SQL, Python, Power BI (Power Query, DAX, and custom modeling), and ETL processes to transform complex datasets into actionable enterprise insights. Proven expertise in bridging business requirements with technical execution?translating stakeholder needs into high-impact dashboards, robust data models, and automated reporting solutions. Combines technical depth, analytical thinking, and clear communication to deliver stakeholder-focused BI strategies that drive business growth.
 
 ## Skills
 
@@ -15,7 +15,7 @@ Business Systems Analyst with a strong foundation in data engineering and analyt
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar)
 
 
-**Linux Cluster Monitoring Agent** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar/tree/master/linux_sql)]:  Designed and implemented a Linux-based resource monitoring agent using Bash scripting and PostgreSQL to automate the collection of critical hardware and performance metrics. Beyond the technical deployment, a comprehensive systems analysis was conducted to align the data architecture with business objectives, identifying key usage patterns essential for capacity planning and server scaling. By validating SQL schemas and cron schedules against reporting requirements, the project ensured high data integrity and translated complex system behaviors into actionable insights. This solution effectively bridged the gap between infrastructure management and business value through clear technical documentation and strategic resource optimization.
+**Linux Cluster Monitoring Agent** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar/tree/master/linux_sql)]:  Designed a Bash and PostgreSQL resource monitoring agent to automate hardware metric collection. Conducted systems analysis to align data architecture with capacity planning, validating SQL schemas and cron schedules to ensure high data integrity. Translated complex infrastructure metrics into actionable insights, bridging technical management with strategic resource optimization.
 
 **SQL Learning & RDBMS Practice** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar/tree/master/sql)]:  Refined relational database skills by solving a variety of SQL queries modeled after real-world business scenarios. The primary focus was on mastering different types of JOIN operations to connect disparate datasets and better understand complex data relationships. By treating each exercise as a stakeholder request, informal questions were converted into structured technical requirements to ensure data accuracy. This approach emphasized disciplined documentation and the ability to translate technical database outputs into clear, useful insights for decision-making.
 
@@ -30,6 +30,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_EveneetJoh
 **PySpark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar/tree/master/spark/notebooks)]: Designed and deployed four comprehensive ETL pipelines within the Databricks platform using PySpark to ingest and process data from diverse sources, including REST APIs, PostgreSQL databases (via JDBC), and internal Hive tables. Developed data manipulation logic such as three-way joins and time-series aggregations to derive business-critical metrics, while optimizing storage and query performance through the use of Parquet and Delta Lake formats. Engineered data partitioning strategies to enable efficient partition pruning, significantly reducing I/O overhead and execution time for downstream analytics. Managed real-world data engineering challenges, including handling API rate limits and ensuring schema consistency across heterogeneous data environments to deliver production-ready data assets.
 
 **Power BI Fundamentals** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar/tree/master/power_bi)]: Developed three interactive Power BI dashboards to deliver actionable insights across sales, survey, and financial data. Built a Beverages Sales Dashboard analyzing Coca-Cola?s sales and operating profit across U.S. states using AI-driven Q and A, key influencer visuals, and dynamic maps. Transformed and analyzed over 600 survey responses to create a Data Professionals Report highlighting trends in salary, job satisfaction, and in-demand skills. Designed a Stocks Dashboard by integrating Alpha Vantage API data to visualize historical prices, trading volume, key financial metrics, and earnings estimates. Performed data cleaning, transformation, and modeling, validated outputs, and translated complex data into clear, data-driven business insights.
+
+**Blue Bank Global Asset Management Dashboard** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EveneetJohar/tree/master/power_bi)]: Led stakeholder interviews and requirements-gathering sessions to translate business needs into a comprehensive Business Requirements Document (BRD) for an automated monthly reporting dashboard at Blue Bank Global Asset Management. Collaborated cross-functionally with development leads, data analysts, and Scrum masters to align technical architecture, data integration pipelines, and agile delivery frameworks. Delivered executive and client-facing presentations to Blue Bank stakeholders, securing project sign-off and ensuring compliance with ITGC governance and reporting standards.
 
 
 ## Highlighted Projects
@@ -52,5 +54,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_EveneetJoh
 ## Miscellaneous
 - CCNA Cisco Certified Network Associate
 - Microsoft Certified: Azure Fundamentals (AZ-900)
+- Databricks Data Analyst Associate Certification
+- Databricks Data Engineer Associate Certification
+- PL-300 Certification Prep: Microsoft Power BI Data Analyst
 - Avid reader and continuous learner; enjoys diving into diverse genres to stay curious and well-rounded.
 - Passionate about hiking and camping, enjoying the challenge of navigating new trails and spending time in nature.
