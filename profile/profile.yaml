@@ -69,7 +69,9 @@ jarvis_projects:
   - name: "Power BI Fundamentals"
     git_url: "/power_bi"
     description: "Developed three interactive Power BI dashboards to deliver actionable insights across sales, survey, and financial data. Built a Beverages Sales Dashboard analyzing Coca-Cola?s sales and operating profit across U.S. states using AI-driven Q and A, key influencer visuals, and dynamic maps. Transformed and analyzed over 600 survey responses to create a Data Professionals Report highlighting trends in salary, job satisfaction, and in-demand skills. Designed a Stocks Dashboard by integrating Alpha Vantage API data to visualize historical prices, trading volume, key financial metrics, and earnings estimates. Performed data cleaning, transformation, and modeling, validated outputs, and translated complex data into clear, data-driven business insights."
-
+  - name: "Blue Bank Global Asset Management Dashboard"
+    git_url: "/power_bi"
+    description: "Led stakeholder interviews and requirements-gathering sessions to translate business needs into a comprehensive Business Requirements Document (BRD) for an automated monthly reporting dashboard at Blue Bank Global Asset Management. Collaborated cross-functionally with development leads, data analysts, and Scrum masters to align technical architecture, data integration pipelines, and agile delivery frameworks. Delivered executive and client-facing presentations to Blue Bank stakeholders, securing project sign-off and ensuring compliance with ITGC governance and reporting standards."
 
 # List of personal or academic projects
 # Feel free to add more projects
