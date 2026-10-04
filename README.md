@@ -56,6 +56,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_EveneetJoh
 - Microsoft Certified: Azure Fundamentals (AZ-900)
 - Databricks Data Analyst Associate Certification
 - Databricks Data Engineer Associate Certification
-- PL-300 Certification Prep: Microsoft Power BI Data Analyst
+- Microsoft Certified Power BI Data Analyst Associate PL-300
 - Avid reader and continuous learner; enjoys diving into diverse genres to stay curious and well-rounded.
 - Passionate about hiking and camping, enjoying the challenge of navigating new trails and spending time in nature.
